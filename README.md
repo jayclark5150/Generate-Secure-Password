@@ -13,7 +13,11 @@ The default password is 20 characters from a 72 character set (A-Z, a-z, 0-9, an
 
 The shortcut does not use an AI model to write the password. Model output is not truly random and can repeat, so a real random source is used instead.
 
-## Set it up
+## Quick install
+
+Download [Generate Secure Password.shortcut](Generate%20Secure%20Password.shortcut), double-click it, and choose **Add Shortcut**. Or build it yourself with the steps below.
+
+## Set it up manually
 
 1. Open **Shortcuts** on your Mac and click **+** to make a new shortcut. Name it "Generate Secure Password".
 2. Add the **Run Shell Script** action. Set Shell to `/bin/zsh`.
